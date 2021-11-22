@@ -1,0 +1,48 @@
+body {
+    background-image: url(13.jpg);
+    background-size: 100%;
+}
+
+p {
+    opacity: 100%;
+    font-size: 150%;
+    color: rgb(240, 222, 222);
+}
+
+h6 {
+    opacity: 100%;
+    font-size: 150%;
+    color: rgb(240, 222, 222);
+}
+
+input {
+    opacity: 100%;
+    color: black;
+}
+
+.a1 {
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: #ffb28b;
+    border-radius: 15px;
+    opacity: 100%;
+}
+
+div {
+    text-align: center;
+    opacity: 100%;
+}
+
+.a3 {
+    text-align: left;
+}
+
+.in {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.a4 {
+    margin-left: 30px;
+}

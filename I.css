@@ -1,0 +1,114 @@
+
+body{
+	background-image:url(shapochki-vypusknikov.jpg);
+	background-size: 100%;
+}
+#wrapper{
+  width: 100%; 
+  margin: 10 auto;
+  border: rgba(1,1,1,0.5);
+  border-color: #464451;
+  background:#c089ec; 
+  opacity: 80%;
+}
+#header{
+position:relative; 
+  height: 40px; 
+  background-color: #2f00ff7e; 
+   margin-bottom: 5px; 
+  border-radius: 5px;
+}
+.as{
+    color: rgb(242, 249, 253);
+}
+.qw{
+    float: right;
+}
+.ad{
+    margin-left: 300;}
+
+img{ 
+    margin-right: 10px;
+float: left; 
+  margin: -40px 30 0 0;} 
+h1{ 
+  margin:0 0 10px 40px; 
+  color:#464451; 
+}
+.nomer{ 
+  position:absolute; 
+  top:5px; 
+  left:100%; 
+  font-size: 25px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#464451; 
+}
+#sidebar{ 
+  background-color: #ffffff; 
+  width: 20%; 
+  height: 500px;
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+  opacity: 0.9;
+}
+.marcer{ 
+  float: left; 
+  opacity: 90%;
+}
+#content{ 
+  margin-bottom: 5px; 
+  width: 70%;
+  padding: 10px; 
+  background: #ffffff; 
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  opacity: 80%;
+}
+
+.footer{ 
+  height: 500px; 
+  background-color: #ffffff; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  opacity: 0.9;
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+.fa-moon {
+	color: #0f78f1;
+}
+.fa-sun {
+	color: #f39c12;
+}
